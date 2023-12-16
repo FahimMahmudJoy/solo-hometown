@@ -1,13 +1,15 @@
 body {
     text-align: center;
     font-family: 'Cantarell', sans-serif;
+    width: 40%;
+    margin: 5px auto;
 }
 
 
 #hero {
     background-image: url('images/torshov.jpg');
     background-size: cover;
-    height: 880px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,15 +19,18 @@ body {
 }
 
 .hero-heading {
-    background-color: #457B9D;
+    /* background-color: #457B9D; */
+    text-shadow: 0 0 5px black;
+    font-size: 40px;
     padding: 3px 6px;
     width: 300px;
-    margin: 20px auto;
+    margin: 10px auto;
     border-radius: 7px;
 }
 
 .hero-subheading {
-    background-color: #1D3557;
+    /* background-color: #1D3557; */
+    text-shadow: 0 0 5px black;
     padding: 3px 6px;
     width: 500px;
     margin: 10px auto;
@@ -38,6 +43,10 @@ body {
     background-color: #F1FAEE;
     justify-content: center;
     padding: 10px 10px 50px 10px;
+}
+
+.nav-main-head {
+    font-size: 35px;
 }
 
 .nav-item {
